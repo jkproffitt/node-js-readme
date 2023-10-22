@@ -42,26 +42,26 @@ function generateMarkdown(userInput) {
   * [Tests](#tests)
   * [Questions](#questions)
   
-  ##Description
+  ## Description
   ${data.description}
 
-  ##Installation
+  ## Installation
   ${data.installation}
   
-  ##License
+  ## License
   ${renderLicenseSection(license)}
   ${renderLicenseLink(license)}
 
-  ##Usage
+  ## Usage
   ${data.usage}
 
-  ##Contributions
+  ## Contributions
   ${data.contribution}
 
-  ##Tests
+  ## Tests
   ${data.tests}
 
-  ##Questions
+  ## Questions
   email: ${data.email} or repository: https://github.com/${data.username}
 `;
 }
