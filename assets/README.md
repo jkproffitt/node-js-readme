@@ -1,5 +1,5 @@
-# asd 
-  [![License](https://img.shields.io/badge/license-Apache License 2.0-brightgreen.svg)]  
+# tets 
+  -   [License](https://img.shields.io/badge/license-MIT-brightgreen.svg)  
 
   ## Table of Contents
   * [Installation](#installation)
@@ -10,23 +10,23 @@
   * [Questions](#questions)
   
   ##Description
-  asd
+  test
 
   ##Installation
-  asd
+  test
   
   ##License
-  Licensed under Apache License 2.0
-  https://opensource.org/licenses/Apache-2.0
+   -   Licensed under MIT
+   -   [MIT](https://opensource.org/licenses/MIT)
 
   ##Usage
-  asd
+  terst
 
   ##Contributions
-  asd
+  test
 
   ##Tests
-  asd
+  test
 
   ##Questions
-  email: asd or repo: https://github.com/asd
+  email: tes or repo: https://github.com/test
