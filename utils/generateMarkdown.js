@@ -62,7 +62,7 @@ function generateMarkdown(userInput) {
   ${data.tests}
 
   ##Questions
-  email: ${data.email} or repo: https://github.com/${data.username}
+  email: ${data.email} or repository: https://github.com/${data.username}
 `;
 }
 
