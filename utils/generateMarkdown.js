@@ -1,37 +1,38 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
 function renderLicenseBadge(license) {
-	license !== ''
+	return license !== ''
 		? `[![License](https://img.shields.io/badge/license-${license}-brightgreen.svg)]`
 		: '';
 }
 
 // TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+//use switch case instead?
 function renderLicenseLink(license) {
-	!license
+	license = !license
 		? ''
-		: license === 'MIT'
+		: license == 'MIT'
 		? 'https://opensource.org/licenses/MIT'
-		: license === 'GNU GPLv3'
+		: license == 'GNU GPLv3'
 		? 'https://www.gnu.org/licenses/gpl-3.0'
-		: license === 'Apache License 2.0'
+		: license == 'Apache License 2.0'
 		? 'https://opensource.org/licenses/Apache-2.0'
-		: license === 'ISC License'
+		: license == 'ISC License'
 		? 'https://opensource.org/licenses/ISC'
 		: '';
+	return license;
 }
 
 // TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+
 function renderLicenseSection(license) {
-	license !== '' ? `Licensed under ${license}` : '';
+	return license !== '' ? `Licensed under ${license}` : '';
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(userInput) {
 	const { license, ...data } = userInput;
-	return `# ${data.title} ${renderLicenseBadge(license)}  
+	return `# ${data.title} 
+  ${renderLicenseBadge(license)}  
 
   ## Table of Contents
   * [Installation](#installation)
@@ -54,7 +55,7 @@ function generateMarkdown(userInput) {
   ##Usage
   ${data.usage}
 
-  ##Contributing
+  ##Contributions
   ${data.contribution}
 
   ##Tests
@@ -65,4 +66,4 @@ function generateMarkdown(userInput) {
 `;
 }
 
-module.exports = generateMarkdown;
+export default generateMarkdown;
