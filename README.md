@@ -1,5 +1,7 @@
 # nodejs-readme
 
+[video link](./assets/video/nodehomeworkVideo.mov)
+
 ## 09 Node.js Challenge: Professional README Generator
 
 ## Your Task
@@ -94,7 +96,7 @@ This Challenge is graded based on the following criteria:
 
 -   Satisfies all of the above acceptance criteria plus the following:
 
-    -   Uses the [Inquirer package](https://www.npmjs.com/package/inquirer/v/8.2.4).
+    -   Uses the [Inquirer package](https://www.npmjs.com/package/inquirer/).
 
 ### Repository Quality: 13%
 
