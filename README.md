@@ -1,6 +1,6 @@
 # nodejs-readme
 
-[video link](./assets/video/nodehomeworkVideo.mov)
+[video link](https://drive.google.com/file/d/1YUpZ8lSZd_XLAncCJVTGSlIfHvUfXkB7/view?usp=sharing)
 
 ## 09 Node.js Challenge: Professional README Generator
 
